@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# macOS
+.DS_Store
+
+# Max/MSP
+*.maxpresets
+
+# Environment
+.env
+.env.local
+
+# Frozen releases (managed via GitHub Releases)
+*-frozen.amxd
