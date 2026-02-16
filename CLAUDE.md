@@ -238,7 +238,7 @@ gh release create v0.1.0 ./ChatM4L-v0.1.0.amxd \
 
 - **Repo**: https://github.com/jimmypocock/ChatM4L
 - **Releases**: https://github.com/jimmypocock/ChatM4L/releases
-- **Website**: https://chatm4l.com (TODO)
+- **Website**: https://chatm4l.com
 
 ## Dependencies
 
