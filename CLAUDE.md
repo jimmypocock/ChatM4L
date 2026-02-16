@@ -201,6 +201,17 @@ Skills are markdown files that get injected into the system prompt:
 3. File size should increase significantly (includes dependencies)
 4. Copy to `ChatM4L-vX.X.X.amxd` for versioned release
 
+### Polishing the UI (Presentation Mode)
+
+Users should see "Presentation view" (clean UI), not "Patcher view" (the wiring).
+
+1. **Mark UI elements for presentation**: Select each UI element (textedit, buttons), open Inspector (Cmd+I), check "Include in Presentation"
+2. **Arrange the presentation**: Go to View → Presentation (or Cmd+Opt+E) to switch to Presentation view. Drag/resize your UI elements to look nice.
+3. **Make it open in Presentation by default**: Go to View → Patcher Inspector, check "Open in Presentation"
+4. **Set the device width**: View → Set Device Width to control how wide it appears in Ableton
+
+Now when users load the device, they'll only see the clean UI - no wiring visible.
+
 ### Creating a Release
 
 ```bash

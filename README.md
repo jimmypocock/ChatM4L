@@ -41,6 +41,36 @@ config/
 | `/createconfig` | Create initial config |
 | `/<skill>` | Apply a skill (e.g., `/drums`) |
 
+## Skills Examples
+
+Skills add specialized expertise to the AI. Activate one and it stays active until you switch or turn it off.
+
+**Drum Programming** (`/drums`)
+```
+"Give me an 80s ballad beat"
+"Make it more syncopated"
+"Add ghost notes to the snare"
+"What hi-hat pattern would work for house?"
+```
+
+**Mixing** (`/mixing`)
+```
+"This sounds muddy, how do I fix it?"
+"Help me set up sidechain compression"
+"What frequencies should I cut for clarity?"
+"My mix sounds flat, what's missing?"
+```
+
+**Sound Design** (`/sound-design`)
+```
+"How do I make this pad more evolving?"
+"Create a pluck sound from scratch"
+"Make this bass more aggressive"
+"What modulation would add movement?"
+```
+
+Use `/skill off` to return to the general assistant.
+
 ## Requirements
 
 - Ableton Live 11+ with Max for Live
